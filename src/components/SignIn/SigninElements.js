@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const Container = styled.div`
   min-height: 692px;
@@ -12,8 +12,8 @@ export const Container = styled.div`
   overflow: hidden;
   background: linear-gradient(
     108deg,
-    rgba(1, 147, 86, 1) 0%,
-    rgba(10, 201, 122, 1) 100%
+    rgba(0, 127, 255, 1) 0%,
+    rgba(0, 71, 171, 1) 100%
   );
 `;
 
@@ -91,7 +91,7 @@ export const FormInput = styled.input`
 `;
 
 export const FormButton = styled.button`
-  background: #01bf71;
+  background: #0173bf;
   padding: 16px 0;
   border: none;
   border-radius: 4px;
